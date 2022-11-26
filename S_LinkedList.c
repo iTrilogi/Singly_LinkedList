@@ -34,7 +34,7 @@ int main()
     //head = addToEmpty(head,69);                   //---------- Create node to empty list           
 
     //head = add_at_end(head, 17);                //---------- Adding node at the END of list
-    //current = add_at_end(current, 23);         //---------- Adding node at the END of list
+    //head = add_at_end(head, 23);               //---------- Adding node at the END of list
 
     //head = add_at_beg(head, 7);              //---------- Adding node at the START of list
     //head = add_at_beg(head, 53);            //---------- Adding node at the START of list
