@@ -8,11 +8,11 @@
 
 NODE *addToEmpty(NODE *head, int data);
 
-NODE *add_at_end(NODE *current, int data);              //O(1)
-NODE *add_at_beg(NODE *head, int d);                    //O(1)
+NODE *add_at_end(NODE *current, int data);              
+NODE *add_at_beg(NODE *head, int d);                    
 NODE *add_at_pos(NODE *head, int data, int pos);
 
-NODE *del_first(NODE *head);                            //O(1)
+NODE *del_first(NODE *head);                          
 NODE *del_last(NODE *head);                              
 NODE *del_at_pos(NODE *head, int position);
 NODE *del_list(NODE *head);
