@@ -72,15 +72,15 @@ NODE *addToEmpty(NODE* head, int data)
 NODE *add_at_end(NODE *head, int data)
 {
     NODE *temp = MALLOC(NODE);
-    NODE *c_head = head;
-    while (c_head->link)
+    NODE *current = head;
+    while (current->link)
     {
-        c_head = c_head->link;
+        current = current->link;
     }
 
     temp->data = data;
     temp->link = NULL;
-    c_head->link = temp;
+    current->link = temp;
     
     return head;
 }
